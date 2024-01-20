@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Geo Voyager</string>
+    <string name="welcome_to_geovoyager">Selamat datang di aplikasi <b>Geo Voyager!</b></string>
+    <string name="triangle_definition">Pengertian Segitiga</string>
+    <string name="isosceles_triangles">Segitiga Sama Kaki</string>
+    <string name="right_triangle_conformity">Kekongruenan Segitiga Siku-Siku</string>
+    <string name="start">Mulai</string>
+    <string name="go">GO!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="complete_exercise">Selesaikan Latihan</string>
+    <string name="restart">Ulangi</string>
+    <string name="answer_key">Kunci Jawaban</string>
+    <string name="lets_start">Ayo Kita Mulai !!!</string>
+    <string name="next_question">Soal Selanjutnya</string>
+    <string name="quit">Keluar</string>
+    <string name="made_with_love">Made with ♥️</string>
+</resources>

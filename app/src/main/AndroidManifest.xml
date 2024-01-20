@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GeoVoyager"
+        tools:targetApi="31">
+        <activity
+            android:name=".pages.quizresult.QuizResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.quiz.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.preparequiz.PrepareQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.practicequestionanswerkey.PracticeQuestionAnswerKeyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.practicequestionresult.PracticeQuestionResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.practicequestionquiz.PracticeQuestionQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.preparepracticequestion.PreparePracticeQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.practicequestions.PracticeQuestionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.video.VideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.righttriangleconformity.RightTriangleConformityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.isoscelestriangle.IsoscelesTriangleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.triangledefinition.TriangleDefinitionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.materials.MaterialsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.cp.CPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.atp.ATPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
